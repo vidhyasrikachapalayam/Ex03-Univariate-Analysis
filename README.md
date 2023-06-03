@@ -26,8 +26,8 @@ Do plots like boxplots,countplot,distribution plot,histogram plot.
 
 Program
 For SuperStore.csv:
-Developed by : SUJITHRA B K N
-Registration Number : 212222230153
+Developed by : vidhyasri.k
+Registration Number : 212222230170
 
 import pandas as pd
 import numpy as np
@@ -35,55 +35,106 @@ import seaborn as sns
 df=pd.read_csv("SuperStore.csv")
 df
 df.head()
+
 df.info()
+
 df.describe()
+
 df.isnull().sum()
+
 df.dtypes
+
 df['Sales'].value_counts()
+
 sns.boxplot(x="Sales", data=df)
+
 sns.countplot(x="Sales", data=df)
+
 sns.distplot(df["Sales"])
+
 sns.histplot(x="Sales", data=df)
+
 For diabetes.csv
-Developed by : SUJITHRA B K N
-Registration Number : 212222230153
+
+Developed by : vidhyasri.k
+Registration Number : 212222230170
 
 import pandas as pd
+
 import numpy as np
+
 import seaborn as sns
+
 df=pd.read_csv("diabetes.csv.csv")
+
 df
+
 df.head()
+
 df.info()
+
 df.describe()
+
 df.isnull().sum()
+
 df.dtypes
+
 df['Age'].value_counts()
+
 sns.boxplot(x="Age", data=df)
+
 sns.countplot(x="Age", data=df)
+
 sns.distplot(df["Age"])
+
 sns.histplot(x="Age", data=df)
+
 OUTPUT
+
 FOR SuperStore.csv:
 DATA
-Screenshot 2023-03-29 193120
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/b3b42f57-5b32-4fc0-bdc0-218a5f8096a3)
+
 
 DATA HEAD
-Screenshot 2023-03-29 193142
+
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/b094844c-d59b-4813-81d5-730ce459d833)
+
 
 DATA INFORMATION
-Screenshot 2023-03-29 193155
+
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/bf30b1fc-585d-4aa9-8278-56edb2d853a2)
+
+
 
 DATA DESCRIBE
-Screenshot 2023-03-29 193203
+
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/508369bc-a5a4-4a45-94f9-6624c49aeef2)
+
 
 DATA NULL VALUES
-Screenshot 2023-03-29 193211
+
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/4d495bc5-ee9f-472c-8b16-53de2611a256)
+
 
 DATA DATA TYPES
-Screenshot 2023-03-29 193218
+
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/e3c9ab67-f259-4abe-a68f-110086668531)
 
 DATA VALUE COUNT
-Screenshot 2023-03-29 193227
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/0ea3c791-dca1-4a27-ac0b-062550e46c9c)
 
-BOXPLOT
+BOX PLOT
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/ae90fd9b-d763-46f4-b7ec-a473a0cbdb0c)
+
+COUNT PLOT
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/5a5a99fe-a2c2-48df-8cbe-6eee54b08a25)
+
+DISTRIBUTION PLOT
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/ccafac7d-b834-4c7b-9ed2-9786bdda571a)
+
+HISTOGRAM PLOT
+![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/4e2722de-f2c3-40bf-8ee8-fd61ff74562c)
+
+RESULT
+Thus we have read the given data and performed the univariate analysis with different types of plots.
