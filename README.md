@@ -142,4 +142,5 @@ HISTOGRAM PLOT
 ![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/4e2722de-f2c3-40bf-8ee8-fd61ff74562c)
 
 RESULT
+
 Thus we have read the given data and performed the univariate analysis with different types of plots.
