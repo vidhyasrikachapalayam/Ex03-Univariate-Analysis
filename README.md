@@ -122,18 +122,23 @@ DATA DATA TYPES
 ![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/e3c9ab67-f259-4abe-a68f-110086668531)
 
 DATA VALUE COUNT
+
 ![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/0ea3c791-dca1-4a27-ac0b-062550e46c9c)
 
 BOX PLOT
+
 ![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/ae90fd9b-d763-46f4-b7ec-a473a0cbdb0c)
 
 COUNT PLOT
+
 ![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/5a5a99fe-a2c2-48df-8cbe-6eee54b08a25)
 
 DISTRIBUTION PLOT
+
 ![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/ccafac7d-b834-4c7b-9ed2-9786bdda571a)
 
 HISTOGRAM PLOT
+
 ![image](https://github.com/vidhyasrikachapalayam/Ex03-Univariate-Analysis/assets/119477817/4e2722de-f2c3-40bf-8ee8-fd61ff74562c)
 
 RESULT
